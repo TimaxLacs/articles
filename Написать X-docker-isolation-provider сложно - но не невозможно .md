@@ -9,16 +9,16 @@
 
 ## Стадия 1: Отрицание
 
-В качестве референса я использовал уже тогда готовый [JavaScript провайдер](https://github.com/deep-foundation/js-docker-isolation-provider). Делал я его по согласованию с ребятами из Deep, однако без какой-то конкретной обратной связи. Код просили покороче, поэтому ничего лишнего я не добавлял, сугубо переписал лад Js провайдера. Пришлось даже заарбузить `[rust-script](https://rust-script.org/)`
+В качестве референса я использовал уже тогда готовый [JavaScript провайдер](https://github.com/deep-foundation/js-docker-isolation-provider). Делал я провайдер по согласованию с ребятами из Deep, однако без какой-то конкретной обратной связи. Код просили покороче, поэтому ничего лишнего я не добавлял, сугубо переписал на лад Js провайдера. Пришлось даже заарбузить `[rust-script](https://rust-script.org/)`
 
-Вот сразу ссылка на запрос: https://github.com/deep-foundation/rust-docker-isolation-provider/pull/1
+Вот сразу ссылка на pull request: https://github.com/deep-foundation/rust-docker-isolation-provider/pull/1
 
 Чтобы разобраться, почему именно такой ко~~т~~д, надо понять, что именно он должен уметь, чтобы его можно было назвать тем самым сакральным `X-docker-isolation-provider`. Для начала я полез глядеть уже готовый [провайдер для JS](https://github.com/deep-foundation/js-docker-isolation-provider)
 
 Вот такая табличка встречает нас на GitHub страничке. В коде в принципе то же самое.
 ![img](https://github.com/TimaxLacs/articles/assets/68294279/d611b164-0193-4e91-9808-16a8688af0e0)
 
-Внимание конечно привлекает и [Docker](https://www.docker.com/#build) в названии, по [докер файлу](https://www.docker.com/) понятно, что образ просто запускается на машине
+Внимание конечно привлекает и [Docker](https://www.docker.com/#build) в названии, по [докер файлу](https://github.com/deep-foundation/js-docker-isolation-provider/blob/main/Dockerfile) понятно, что образ просто запускается на машине
 пользователя, обеспечивая выполнение кода, который ему шлют на нужный ендпоинт.
 Что же, тут пока больше ловить нечего, остальное можно было узнавать уже напрямую у разработчиков на их дискорд сервере. Только вот чтобы писать в каналах разработчиков, нужно хотя бы обладать [ролью кадета](https://discord.gg/deep-foundation) - ладно, сделано.
 
