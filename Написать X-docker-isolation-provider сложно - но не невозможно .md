@@ -4,7 +4,7 @@
 
 Все было так: в один прекрасный день у нас на [платформе связей](https://github.com/linksplatform/) решили - было бы славно
 портировать нашего [бота](https://github.com/linksplatform/Bot) в [Deep](https://github.com/deep-foundation). А для этого нужно было написать так [называемые провайдеры](https://github.com/orgs/deep-foundation/repositories?q=docker-isolation-provider). 
-Провайдеры нужны лишь для одной цели - дать возможность пользователю выполнять пользовательские хэндлеры на любом языке. Тогда я просто подумал, что было бы неплохо помочь парням, которые вероятно Rust никогда в жизни [не видели](https://github.com/deep-foundation/rust-docker-isolation-provider/commit/f4fcd35a5965608dd28c8f1e4ee44775f17fae69). 
+Провайдеры нужны лишь для одной цели - дать возможность пользователю выполнять пользовательские хэндлеры на любом языке. Тогда я просто подумал, что было бы неплохо помочь парням, которые вероятно Rust никогда в жизни [не видели](https://github.com/deep-foundation/rust-docker-isolation-provider/commit/f4fcd35a5965608dd28c8f1e4ee44775f17fae69). Вот тут их список на npm: https://www.npmjs.com/search?q=docker-isolation-provider
 Ох, как же я тогда ошибался…
 
 ## Стадия 1: Отрицание
